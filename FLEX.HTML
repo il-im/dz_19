@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <header>
+        <h1>IMAGES</h1>
+    </header>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            width: 100%;
+            position: fixed;
+            background: brown;
+            bottom: 0;
+            font-size: 80px;
+        }
+
+        footer>button {
+            width: 50px;
+            height: 30px;
+        }
+
+        footer>input {
+            width: 500px;
+            ;
+            height: 30px;
+        }
+
+        header {
+            width: 100%;
+            position: fixed;
+            text-align: center;
+            background: brown;
+        }
+
+        .flex-container {
+            display: flex;
+            height: 100%;
+            background: #858585;
+            background-size: 10;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .flex-element {
+            background: url(https://image.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg);
+            margin-left: 10px;
+            margin-top: 10px;
+            width: 300PX;
+            height: 150px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-element">1</div>
+        <div class="flex-element">2</div>
+        <div class="flex-element">3</div>
+        <div class="flex-element">4</div>
+        <div class="flex-element">5</div>
+        <div class="flex-element">6</div>
+        <div class="flex-element">7</div>
+        <div class="flex-element">8</div>
+        <div class="flex-element">10</div>
+        <div class="flex-element">11</div>
+        <div class="flex-element">12</div>
+        <div class="flex-element">13</div>
+        <div class="flex-element">14</div>
+        <div class="flex-element">15</div>
+        <div class="flex-element">16</div>
+        <div class="flex-element">17</div>
+
+
+    </div>
+    <footer>
+        <span>my gallary</span>
+        <input type="text" placeholder="find img" />
+        <button>НАЙТИ</button>
+    </footer>
+</body>
+
+</html>
